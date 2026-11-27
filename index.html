@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>مراكز الحرية</title>
+<meta name="theme-color" content="#164f9c">
+<meta name="description" content="مراكز الحرية للصحة النفسية وعلاج الإدمان. مرخصة من وزارة الصحة. سرية تامة.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="مراكز الحرية">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+<main id="home" class="view">
+  <header class="top">
+    <img class="logo" src="icon-192.png" alt="شعار مراكز الحرية" width="84" height="84">
+    <h1>مراكز الحرية</h1>
+    <p class="sub">للصحة النفسية وعلاج الإدمان</p>
+    <p class="lic">مرخصة من وزارة الصحة</p>
+  </header>
+
+  <section class="body">
+    <p class="lead">لو أنت أو حد من أسرتك محتاج مساعدة، كلمنا. مكالمتك سرية.</p>
+    <a class="call" href="tel:01002995099">
+      <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      <span><small>اتصل الآن</small><bdi dir="ltr">01002995099</bdi></span>
+    </a>
+
+    <nav class="tiles">
+      <a href="#inpatient"><i><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5M7 11h.01"/></svg></i><b>حجز داخلي</b></a>
+      <a href="#outpatient"><i><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V8l8-5 8 5v12zM12 9v6M9 12h6M9 20v-3h6v3"/></svg></i><b>كشف خارجي</b></a>
+      <a href="#branches"><i><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11zM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></i><b>الفروع</b></a>
+      <a href="#team"><i><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 20c0-3.5 2.5-6 6-6s6 2.5 6 6M16 5.5a3 3 0 0 1 0 5.5M18 14c2 .8 3 3 3 6"/></svg></i><b>فريق العلاج</b></a>
+    </nav>
+
+    <div class="note">سرية تامة. مراكز مرخصة من وزارة الصحة.</div>
+    <p class="cities">القاهرة • الغردقة • الأقصر • أسوان</p>
+
+    <div id="install" class="install" hidden>
+      <span>ثبّت التطبيق على موبايلك</span>
+      <button id="installBtn" type="button">تثبيت</button>
+    </div>
+    <div id="iosTip" class="install ios" hidden>
+      لتثبيت التطبيق على الآيفون: اضغط زر المشاركة في Safari، ثم "إضافة إلى الشاشة الرئيسية".
+    </div>
+  </section>
+</main>
+
+<main id="inpatient" class="view" hidden>
+  <header class="bar"><a href="#home" class="back" aria-label="رجوع">›</a><h2>حجز داخلي</h2></header>
+  <section class="body">
+    <img class="pic" src="garden.jpg" alt="حديقة المركز" loading="lazy">
+    <p>إقامة كاملة تحت إشراف الفريق المتخصص، في بيئة آمنة ومحترمة، لعلاج الإدمان والاضطرابات النفسية.</p>
+    <p>للحجز أو الاستفسار عن الإجراءات والتكلفة، اتصل بينا وهنرد عليك بسرية تامة.</p>
+    <a class="call small" href="tel:01002995099"><span><small>اتصل للحجز</small><bdi dir="ltr">01002995099</bdi></span></a>
+  </section>
+</main>
+
+<main id="outpatient" class="view" hidden>
+  <header class="bar"><a href="#home" class="back" aria-label="رجوع">›</a><h2>كشف خارجي</h2></header>
+  <section class="body">
+    <img class="pic" src="office.jpg" alt="غرفة استشارة" loading="lazy">
+    <p>متابعة وعلاج من غير إقامة، مع أطباء وأخصائيين نفسيين.</p>
+    <p>اتصل بينا لتحديد موعد الكشف في أقرب فرع ليك.</p>
+    <a class="call small" href="tel:01002995099"><span><small>اتصل لحجز كشف</small><bdi dir="ltr">01002995099</bdi></span></a>
+  </section>
+</main>
+
+<main id="branches" class="view" hidden>
+  <header class="bar"><a href="#home" class="back" aria-label="رجوع">›</a><h2>الفروع</h2></header>
+  <section class="body">
+    <ul class="list">
+      <li><b>القاهرة</b></li>
+      <li><b>الغردقة</b><span>قسم رجال وقسم سيدات منفصلين تمامًا</span></li>
+      <li><b>الأقصر</b></li>
+      <li><b>أسوان</b></li>
+    </ul>
+    <p class="small-p">رقم واحد لكل الفروع.</p>
+    <a class="call small" href="tel:01002995099"><span><small>اتصل بينا</small><bdi dir="ltr">01002995099</bdi></span></a>
+  </section>
+</main>
+
+<main id="team" class="view" hidden>
+  <header class="bar"><a href="#home" class="back" aria-label="رجوع">›</a><h2>فريق العلاج</h2></header>
+  <section class="body">
+    <img class="pic" src="reception.jpg" alt="صالة الاستقبال" loading="lazy">
+    <p>عندنا فريق علاجي كامل، وكل وسائل الترفيه متوفرة.</p>
+    <ul class="chips"><li>أطباء نفسيين</li><li>أطباء استشاريين</li><li>أخصائيين اجتماعيين</li><li>أخصائيين نفسيين</li><li>ممرضين</li><li>مشرفين تأهيل</li><li>كل وسائل الترفيه</li></ul>
+  </section>
+</main>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
